@@ -1,0 +1,226 @@
+{
+ "rigid_body_modes_hz": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "elastic_modes": [
+  {
+   "mode": 7,
+   "frequency_hz": 102.7,
+   "relative_motion": {
+    "FL": {
+     "amplitude": 1.0,
+     "main_axis": "x"
+    },
+    "FR": {
+     "amplitude": 1.0,
+     "main_axis": "x"
+    },
+    "RL": {
+     "amplitude": 0.4,
+     "main_axis": "x"
+    },
+    "RR": {
+     "amplitude": 0.4,
+     "main_axis": "x"
+    },
+    "antennas": {
+     "amplitude": 0.08,
+     "main_axis": "x"
+    }
+   }
+  },
+  {
+   "mode": 8,
+   "frequency_hz": 105.7,
+   "relative_motion": {
+    "FL": {
+     "amplitude": 0.96,
+     "main_axis": "x"
+    },
+    "FR": {
+     "amplitude": 0.96,
+     "main_axis": "x"
+    },
+    "RL": {
+     "amplitude": 1.0,
+     "main_axis": "x"
+    },
+    "RR": {
+     "amplitude": 1.0,
+     "main_axis": "x"
+    },
+    "antennas": {
+     "amplitude": 0.09,
+     "main_axis": "y"
+    }
+   }
+  },
+  {
+   "mode": 9,
+   "frequency_hz": 129.3,
+   "relative_motion": {
+    "FL": {
+     "amplitude": 0.3,
+     "main_axis": "y"
+    },
+    "FR": {
+     "amplitude": 0.3,
+     "main_axis": "y"
+    },
+    "RL": {
+     "amplitude": 1.0,
+     "main_axis": "x"
+    },
+    "RR": {
+     "amplitude": 1.0,
+     "main_axis": "x"
+    },
+    "antennas": {
+     "amplitude": 0.24,
+     "main_axis": "x"
+    }
+   }
+  },
+  {
+   "mode": 10,
+   "frequency_hz": 214.6,
+   "relative_motion": {
+    "FL": {
+     "amplitude": 0.47,
+     "main_axis": "x"
+    },
+    "FR": {
+     "amplitude": 0.47,
+     "main_axis": "x"
+    },
+    "RL": {
+     "amplitude": 0.63,
+     "main_axis": "x"
+    },
+    "RR": {
+     "amplitude": 0.63,
+     "main_axis": "x"
+    },
+    "antennas": {
+     "amplitude": 1.0,
+     "main_axis": "y"
+    }
+   }
+  },
+  {
+   "mode": 11,
+   "frequency_hz": 251.7,
+   "relative_motion": {
+    "FL": {
+     "amplitude": 0.83,
+     "main_axis": "z"
+    },
+    "FR": {
+     "amplitude": 0.83,
+     "main_axis": "z"
+    },
+    "RL": {
+     "amplitude": 0.83,
+     "main_axis": "z"
+    },
+    "RR": {
+     "amplitude": 0.83,
+     "main_axis": "z"
+    },
+    "antennas": {
+     "amplitude": 1.0,
+     "main_axis": "y"
+    }
+   }
+  },
+  {
+   "mode": 12,
+   "frequency_hz": 352.6,
+   "relative_motion": {
+    "FL": {
+     "amplitude": 1.0,
+     "main_axis": "z"
+    },
+    "FR": {
+     "amplitude": 1.0,
+     "main_axis": "z"
+    },
+    "RL": {
+     "amplitude": 0.51,
+     "main_axis": "z"
+    },
+    "RR": {
+     "amplitude": 0.51,
+     "main_axis": "z"
+    },
+    "antennas": {
+     "amplitude": 0.37,
+     "main_axis": "z"
+    }
+   }
+  },
+  {
+   "mode": 13,
+   "frequency_hz": 417.6,
+   "relative_motion": {
+    "FL": {
+     "amplitude": 0.05,
+     "main_axis": "z"
+    },
+    "FR": {
+     "amplitude": 0.05,
+     "main_axis": "z"
+    },
+    "RL": {
+     "amplitude": 0.34,
+     "main_axis": "z"
+    },
+    "RR": {
+     "amplitude": 0.34,
+     "main_axis": "z"
+    },
+    "antennas": {
+     "amplitude": 1.0,
+     "main_axis": "z"
+    }
+   }
+  },
+  {
+   "mode": 14,
+   "frequency_hz": 517.7,
+   "relative_motion": {
+    "FL": {
+     "amplitude": 0.31,
+     "main_axis": "z"
+    },
+    "FR": {
+     "amplitude": 0.31,
+     "main_axis": "z"
+    },
+    "RL": {
+     "amplitude": 0.24,
+     "main_axis": "z"
+    },
+    "RR": {
+     "amplitude": 0.24,
+     "main_axis": "z"
+    },
+    "antennas": {
+     "amplitude": 1.0,
+     "main_axis": "y"
+    }
+   }
+  }
+ ],
+ "lumped_masses_g": {
+  "motor_and_prop_each": 11.0,
+  "battery": 75.0,
+  "stack": 10.0,
+  "camera": 5.0
+ }
+}

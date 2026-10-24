@@ -1,0 +1,4 @@
+*.step -text
+*.stl binary
+*.f3d binary
+*.png binary

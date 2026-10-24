@@ -1,0 +1,78 @@
+{
+ "watertight": true,
+ "extents_mm": [
+  117.1,
+  116.0,
+  44.5
+ ],
+ "volume_cm3": 26.86,
+ "enclosed_voids": 0,
+ "thin_features_under_0p8mm": [
+  {
+   "at_mm": [
+    -40.2,
+    46.7,
+    0.9
+   ],
+   "min_thickness_mm": 0.24
+  },
+  {
+   "at_mm": [
+    -40.2,
+    -46.6,
+    0.8
+   ],
+   "min_thickness_mm": 0.24
+  },
+  {
+   "at_mm": [
+    39.9,
+    53.3,
+    0.2
+   ],
+   "min_thickness_mm": 0.72
+  },
+  {
+   "at_mm": [
+    39.9,
+    -53.3,
+    0.2
+   ],
+   "min_thickness_mm": 0.72
+  },
+  {
+   "at_mm": [
+    -38.9,
+    -53.6,
+    0.2
+   ],
+   "min_thickness_mm": 0.72
+  },
+  {
+   "at_mm": [
+    -38.9,
+    53.6,
+    0.2
+   ],
+   "min_thickness_mm": 0.72
+  }
+ ],
+ "prop_tip_to_frame_mm": {
+  "FL": 5.8,
+  "FR": 5.8,
+  "RL": 6.8,
+  "RR": 6.8
+ },
+ "prop_tip_to_battery_corner_mm": {
+  "GNB 4S 650 (64 x 30 mm)": 5.4,
+  "GNB 4S 850 HV (63 x 30 mm)": 5.5,
+  "GNB 4S 850 long (73 x 32 mm)": 3.8
+ },
+ "prop_disc_covered_percent": {
+  "FL": 6.8,
+  "FR": 6.7,
+  "RL": 5.2,
+  "RR": 5.2
+ },
+ "overhang_needing_support_mm2": 3223
+}

@@ -1,0 +1,254 @@
+{
+ "material": "PETG (FDM, 4 walls, 20% infill)",
+ "uts_along_layers_mpa": [
+  40.0,
+  45.0
+ ],
+ "uts_across_layers_mpa": [
+  20.0,
+  30.0
+ ],
+ "support": "battery seat (z < -9.8 mm)",
+ "motors_mm": {
+  "FL": [
+   39.0,
+   51.5
+  ],
+  "FR": [
+   39.0,
+   -51.5
+  ],
+  "RL": [
+   -39.0,
+   51.5
+  ],
+  "RR": [
+   -39.0,
+   -51.5
+  ]
+ },
+ "cases": {
+  "full_throttle": {
+   "title": "Full throttle, 4 N up on every motor",
+   "von_mises_realistic_peak_mpa": 1.5,
+   "von_mises_raw_peak_mpa": 3.1,
+   "layer_tension_realistic_peak_mpa": 0.9,
+   "layer_tension_raw_peak_mpa": 2.9,
+   "raw_peak_location_mm": [
+    15.9,
+    -12.6,
+    -9.6
+   ],
+   "max_motor_displacement_mm": 0.131,
+   "motor_displacement_mm": {
+    "FL": [
+     0.079,
+     -0.029,
+     0.101
+    ],
+    "FR": [
+     0.079,
+     0.029,
+     0.101
+    ],
+    "RL": [
+     0.003,
+     0.018,
+     0.054
+    ],
+    "RR": [
+     0.003,
+     -0.018,
+     0.054
+    ]
+   },
+   "solver_relative_residual": 9.9e-09,
+   "solver_iterations": 180
+  },
+  "flat_drop": {
+   "title": "Flat drop, 20 N on every motor",
+   "von_mises_realistic_peak_mpa": 7.7,
+   "von_mises_raw_peak_mpa": 15.4,
+   "layer_tension_realistic_peak_mpa": 4.7,
+   "layer_tension_raw_peak_mpa": 14.6,
+   "raw_peak_location_mm": [
+    15.9,
+    -12.6,
+    -9.6
+   ],
+   "max_motor_displacement_mm": 0.658,
+   "motor_displacement_mm": {
+    "FL": [
+     0.396,
+     -0.146,
+     0.505
+    ],
+    "FR": [
+     0.396,
+     0.146,
+     0.505
+    ],
+    "RL": [
+     0.015,
+     0.088,
+     0.271
+    ],
+    "RR": [
+     0.015,
+     -0.088,
+     0.271
+    ]
+   },
+   "solver_relative_residual": 9.9e-09,
+   "solver_iterations": 180
+  },
+  "nose_down": {
+   "title": "Nose-down landing, 30 N on each front motor",
+   "von_mises_realistic_peak_mpa": 12.7,
+   "von_mises_raw_peak_mpa": 38.2,
+   "layer_tension_realistic_peak_mpa": 8.6,
+   "layer_tension_raw_peak_mpa": 37.9,
+   "raw_peak_location_mm": [
+    16.3,
+    -12.4,
+    -9.6
+   ],
+   "max_motor_displacement_mm": 1.156,
+   "motor_displacement_mm": {
+    "FL": [
+     0.573,
+     -0.213,
+     0.981
+    ],
+    "FR": [
+     0.573,
+     0.213,
+     0.981
+    ],
+    "RL": [
+     -0.021,
+     0.001,
+     -0.224
+    ],
+    "RR": [
+     -0.021,
+     -0.001,
+     -0.224
+    ]
+   },
+   "solver_relative_residual": 8.5e-09,
+   "solver_iterations": 182
+  },
+  "sideways_tumble": {
+   "title": "Sideways tumble, 10 N sideways on every motor",
+   "von_mises_realistic_peak_mpa": 6.2,
+   "von_mises_raw_peak_mpa": 20.4,
+   "layer_tension_realistic_peak_mpa": 2.5,
+   "layer_tension_raw_peak_mpa": 19.4,
+   "raw_peak_location_mm": [
+    15.9,
+    12.6,
+    -9.6
+   ],
+   "max_motor_displacement_mm": 1.14,
+   "motor_displacement_mm": {
+    "FL": [
+     -0.967,
+     0.601,
+     -0.064
+    ],
+    "FR": [
+     0.967,
+     0.601,
+     0.064
+    ],
+    "RL": [
+     0.475,
+     0.188,
+     0.039
+    ],
+    "RR": [
+     -0.475,
+     0.188,
+     -0.039
+    ]
+   },
+   "solver_relative_residual": 9.3e-09,
+   "solver_iterations": 179
+  },
+  "yaw_spin": {
+   "title": "Yaw spin crash, 10 N twisting at every motor",
+   "von_mises_realistic_peak_mpa": 12.8,
+   "von_mises_raw_peak_mpa": 39.9,
+   "layer_tension_realistic_peak_mpa": 5.7,
+   "layer_tension_raw_peak_mpa": 36.8,
+   "raw_peak_location_mm": [
+    15.9,
+    12.6,
+    -9.6
+   ],
+   "max_motor_displacement_mm": 2.317,
+   "motor_displacement_mm": {
+    "FL": [
+     -1.994,
+     1.163,
+     -0.202
+    ],
+    "FR": [
+     1.994,
+     1.163,
+     0.202
+    ],
+    "RL": [
+     -1.573,
+     -0.524,
+     0.031
+    ],
+    "RR": [
+     1.573,
+     -0.524,
+     -0.031
+    ]
+   },
+   "solver_relative_residual": 9.3e-09,
+   "solver_iterations": 185
+  },
+  "diagonal_twist": {
+   "title": "Diagonal twist, +/-15 N on opposite corners",
+   "von_mises_realistic_peak_mpa": 7.1,
+   "von_mises_raw_peak_mpa": 27.6,
+   "layer_tension_realistic_peak_mpa": 3.9,
+   "layer_tension_raw_peak_mpa": 27.7,
+   "raw_peak_location_mm": [
+    15.9,
+    12.6,
+    -9.6
+   ],
+   "max_motor_displacement_mm": 0.613,
+   "motor_displacement_mm": {
+    "FL": [
+     0.298,
+     -0.125,
+     0.521
+    ],
+    "FR": [
+     -0.298,
+     -0.125,
+     -0.521
+    ],
+    "RL": [
+     0.066,
+     -0.03,
+     -0.165
+    ],
+    "RR": [
+     -0.066,
+     -0.03,
+     0.165
+    ]
+   },
+   "solver_relative_residual": 9.4e-09,
+   "solver_iterations": 178
+  }
+ }
+}
