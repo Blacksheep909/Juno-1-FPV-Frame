@@ -14,7 +14,7 @@
   <a href="#what-i-designed-and-analysed">What I did</a> ·
   <a href="fea/README.md">FEA write-up</a> ·
   <a href="docs/design-notes.md">Design notes</a> ·
-  <a href="stl/Juno-1-Wide-frame.stl"><strong>Download the STL</strong></a>
+  <a href="stl"><strong>Download the STLs</strong></a>
 </p>
 
 <table>
@@ -76,10 +76,9 @@ Organic and sculpted CAD in Fusion, design for FDM printing, finite-element stre
 
 ## Get started
 
-1. Download [`stl/Juno-1-Wide-frame.stl`](stl/Juno-1-Wide-frame.stl) and follow the [print guide](docs/print-guide.md).
-2. Optional: print the [test arms](stl/test-arms) first to check motor-screw fit in your printer and filament.
-3. Build it with the [build guide](docs/build-guide.md). It covers the two-screw motor mount, battery orientation and flight-controller setup.
-4. To modify it, start from [`cad/Juno-1-Wide.f3d`](cad/Juno-1-Wide.f3d) (Fusion, editable timeline) or [`cad/Juno-1-Wide.step`](cad/Juno-1-Wide.step), then re-run the [FEA scripts](fea/README.md#re-running) on your version.
+1. Download the Juno-2 frame in two parts, [`stl/Juno-2-Wide-frame-part-1.stl`](stl/Juno-2-Wide-frame-part-1.stl) and [`stl/Juno-2-Wide-frame-part-2.stl`](stl/Juno-2-Wide-frame-part-2.stl), and follow the [print guide](docs/print-guide.md).
+2. Build it with the [build guide](docs/build-guide.md). It covers the two-screw motor mount, battery orientation and flight-controller setup.
+3. To modify it, start from [`cad/Juno-2-Wide.f3d`](cad/Juno-2-Wide.f3d) (Fusion, editable timeline) or [`cad/Juno-2-Wide.step`](cad/Juno-2-Wide.step), then re-run the [FEA scripts](fea/README.md#re-running) on your version.
 
 ## Documentation
 

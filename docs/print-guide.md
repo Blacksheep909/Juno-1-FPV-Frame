@@ -6,11 +6,10 @@ Juno-1 is a single-piece frame designed to be printed on a hobby FDM printer in 
 
 | File | Use |
 | --- | --- |
-| [`stl/Juno-1-Wide-frame.stl`](../stl/Juno-1-Wide-frame.stl) | The full frame. Millimetres, watertight, 117.1 × 116.0 × 44.5 mm. |
-| [`stl/test-arms/Juno-1-Wide-test-arm-front.stl`](../stl/test-arms/Juno-1-Wide-test-arm-front.stl) | Front motor pad and arm stub, for checking screw and motor fit before the full print. |
-| [`stl/test-arms/Juno-1-Wide-test-arm-rear.stl`](../stl/test-arms/Juno-1-Wide-test-arm-rear.stl) | Rear motor pad and arm stub. |
+| [`stl/Juno-2-Wide-frame-part-1.stl`](../stl/Juno-2-Wide-frame-part-1.stl) | Juno-2 frame, part 1: the main frame. Millimetres, about 117 × 116 × 37 mm. |
+| [`stl/Juno-2-Wide-frame-part-2.stl`](../stl/Juno-2-Wide-frame-part-2.stl) | Juno-2 frame, part 2. Millimetres, about 51 × 40 × 8 mm. |
 
-If you change the design, export a new STL from [`cad/Juno-1-Wide.f3d`](../cad/Juno-1-Wide.f3d) or [`cad/Juno-1-Wide.step`](../cad/Juno-1-Wide.step). The material on the CAD body is still set to PA12 from an earlier MJF test, so ignore the mass Fusion reports.
+If you change the design, export a new STL from [`cad/Juno-2-Wide.f3d`](../cad/Juno-2-Wide.f3d) or [`cad/Juno-2-Wide.step`](../cad/Juno-2-Wide.step). The material on the CAD body is still set to PA12 from an earlier MJF test, so ignore the mass Fusion reports.
 
 ## Slicer settings
 

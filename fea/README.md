@@ -113,8 +113,8 @@ The quad is assumed to weigh about 160 g ready to fly: a 27 g frame, four 1404-c
 
 | Item | Value |
 | --- | --- |
-| Geometry | [`cad/Juno-1-Wide.step`](../cad/Juno-1-Wide.step), the frame body as printed (26.9 cm³ solid) |
-| Baseline | [`cad/previous/Juno-1-v1-116mm.step`](../cad/previous/Juno-1-v1-116mm.step), v1 |
+| Geometry | Juno-1 Wide STEP (superseded by Juno-2; in git history at commit 6d19360), the frame body as printed (26.9 cm³ solid) |
+| Baseline | v1 STEP (in git history at commit 6d19360) |
 | Mesh | gmsh, +Y half meshed and mirrored, quadratic tetrahedra (P2), 1.5 mm max size with curvature refinement; near-zero-volume sliver tets from tiny CAD sliver faces removed (under 0.2 mm³) |
 | Solver | scikit-fem assembly, conjugate gradient with a pyamg smoothed-aggregation preconditioner using the rigid-body modes, converged to 1 × 10⁻⁸ |
 | Material | PETG, E = 1900 MPa, ν = 0.38, ρ = 1.27 g/cm³, linear elastic and isotropic |

@@ -67,7 +67,7 @@ The frame is a single sculpted body, so the arms could not just be re-dimensione
 5. Joined everything back into one body.
 6. Deleted the old prop-relief notch faces under all four arm roots.
 
-The whole sequence is in the Fusion timeline of [`cad/Juno-1-Wide.f3d`](../cad/Juno-1-Wide.f3d), so it stays editable: lowering the loft tangency weight gives straighter arms with tighter bends at the ends.
+The whole sequence is in the Fusion timeline of [`cad/Juno-2-Wide.f3d`](../cad/Juno-2-Wide.f3d), so it stays editable: lowering the loft tangency weight gives straighter arms with tighter bends at the ends.
 
 | | v1 | Juno-1 Wide |
 | --- | --- | --- |
